@@ -5,7 +5,35 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import CustomButton from "../components/CustomButton";
-import { tasks } from "../components/tasks";
+
+export const tasks = [
+  "write the most annoying melody you can think of using na na na na na",
+  "Draw your ideal sea monster",
+  "Write a chorus that is cringey",
+  "Draw an eye",
+  "Draw an octopus in a top hat",
+  "Design a lamp",
+  "Draw a 1 bdrm floorplan",
+  "draw lips",
+  "draw a beautiful face",
+  "draw an ugly face",
+  "write a short story about something or someone in your vicinity",
+  "draw people skiing down a mountain",
+  "come up with 4 funny names",
+  "combine 2 items into a single item, describe what it does",
+  "draw a cloud raining into a pool and a man standing next to it saying “well, at least I don’t have to pay for the water”",
+  "design a chair",
+  "design a shoe",
+  "design a handbag",
+  "write a verse that makes absolutely no sense but still rhymes",
+  "draw a cartoon self portrait",
+  "draw a self portrait in the style of picasso",
+  "draw homer simpson",
+  "draw patrick star",
+  "draw spongebob squarepants",
+  "draw a cartoon of your pet",
+  "draw an under the sea world with your own house",
+];
 
 export default function HomeScreen() {
   const [showText, setShowText] = useState<undefined | string>(undefined);
