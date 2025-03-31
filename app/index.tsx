@@ -66,6 +66,7 @@ export default function HomeScreen() {
         <CustomButton
           onPress={() => {
             setShowText(randomTask());
+            console.log("why no clicking?!");
           }}
         />
       </ThemedView>
