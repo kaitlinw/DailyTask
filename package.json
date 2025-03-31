@@ -1,8 +1,7 @@
 {
-  "name": "dailytask",
+  "name": "disposable-art",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://kaitlinw.github.io/DailyTask",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -11,7 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "deploy:web": "npx expo export --platform web"
+    "deploy:web": "npx expo export --platform web --output-dir docs"
   },
   "jest": {
     "preset": "jest-expo"
