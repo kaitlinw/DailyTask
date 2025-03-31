@@ -11,26 +11,23 @@
     "ios": {
       "supportsTablet": true
     },
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/favicon.png",
         "backgroundColor": "#89CC04"
       }
     },
+    "assetBundlePatterns": ["**/*"],
     "web": {
       "bundler": "metro",
-      "output": "static",
+      "build": {
+        "output": "static"
+      },
       "favicon": "./assets/images/favicon.png",
       "basePath": "/DailyTask"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     },
