@@ -20,10 +20,10 @@
     },
     "assetBundlePatterns": ["assets/images/*", "assets/fonts/*"],
     "web": {
-      "bundler": "metro",
       "build": {
-        "output": "static"
+        "output": "docs"
       },
+      "bundler": "metro",
       "favicon": "./assets/images/favicon.png",
       "basePath": ""
     },
