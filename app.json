@@ -18,11 +18,11 @@
         "backgroundColor": "#89CC04"
       }
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": ["assets/images/*", "assets/fonts/*"],
     "web": {
       "bundler": "metro",
       "build": {
-        "output": "static"
+        "output": "docs"
       },
       "favicon": "./assets/images/favicon.png",
       "basePath": "/DailyTask"
