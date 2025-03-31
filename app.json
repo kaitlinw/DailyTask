@@ -22,10 +22,10 @@
     "web": {
       "bundler": "metro",
       "build": {
-        "output": "docs"
+        "output": "static"
       },
       "favicon": "./assets/images/favicon.png",
-      "basePath": "/DailyTask"
+      "basePath": ""
     },
     "plugins": ["expo-router"],
     "experiments": {
