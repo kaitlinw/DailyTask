@@ -11,6 +11,8 @@
     "ios": {
       "supportsTablet": true
     },
+    "platforms": ["ios", "android", "web"],
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
@@ -20,7 +22,8 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "basePath": "/DailyTask"
     },
     "plugins": [
       "expo-router",
