@@ -5,7 +5,7 @@ import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import CustomButton from "../components/CustomButton";
-import { tasks } from "../utils/tasks";
+import { tasks } from "../components/tasks";
 
 export default function HomeScreen() {
   const [showText, setShowText] = useState<undefined | string>(undefined);
