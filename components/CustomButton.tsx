@@ -74,6 +74,7 @@ export default function CustomButton({
           onPressOut={handlePressOut}
           style={styles.button}
           onPress={onPress}
+          onTouchEnd={onPress}
         >
           <ThemedText style={styles.buttonText}>{text}</ThemedText>
         </Pressable>
